@@ -19,6 +19,7 @@ public class Main {
     for (int i = 0; i < numbers.length; i++){
       numbers[i] = input.nextInt();
     }
+    //sets the largest numbers as the first one and replaces itself with any subsequent number that is larger until it reaches the end, then the largest one is printed
     int largest = numbers[0];
     for (int j = 1; j < numbers.length; j++){
       if (largest < numbers[j]){
